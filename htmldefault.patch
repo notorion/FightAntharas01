@@ -1,0 +1,17 @@
+### Eclipse Workspace Patch 1.0
+#P L2J_Mobius_11.3_Shinemaker
+diff --git dist/game/data/html/default/34543.htm dist/game/data/html/default/34543.htm
+index c579c8e..2e25102 100644
+--- dist/game/data/html/default/34543.htm
++++ dist/game/data/html/default/34543.htm
+@@ -4,6 +4,7 @@
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h Quest TautiWarzone enterExtremeInstance">Fight Tauti</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Quest LastImperialTomb">Fight Frintezza</Button>
+ <Button ALIGN=LEFT ICON="NORMAL" action="bypass -h Quest OctavisWarzone enterExtremeInstance">Fight Octavis</Button><br>
+-<font color="LEVEL">- High difficulty:</font><font color="ff6868"> Lv. 112, 21+ characters in the command channel</font><br1>
+-<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Quest Antharas">Fight Antharas</Button>
++<font color="LEVEL">- High difficulty:</font><font color="ff6868"> Lv. 112, 21+ characters in the command channel</font>
++<br1>
++<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Quest FightAntharas">Fight Antharas</Button>
+ </body></html>
+\ No newline at end of file
